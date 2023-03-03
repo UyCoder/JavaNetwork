@@ -1,0 +1,59 @@
+1. In order to realize network communication, three problems need to be solved:
+
+- Question 1: How to accurately locate one or more hosts on the network
+- Question 2: How to locate a specific application on the host
+- Question 3: After finding the host, how to transmit data reliably and efficiently
+
+2. Three elements to realize network transmission: (corresponding to solve three problems)
+
+> Using IP addresses (to pinpoint one or more hosts on the network)
+> use port number (target specific application on host)
+> Standardize network communication protocols (reliable and efficient data transmission)
+
+3. Communication element 1: IP address
+3.1 Function
+The IP address is used to uniquely number a computer device on the network
+
+3.2 IP address classification
+> IP address classification method 1
+IPv4 (takes 4 bytes)
+IPv6 (takes 16 bytes)
+
+> IP address classification method 2
+Public address (used by World Wide Web) and private address (used by LAN. Begins with 192.168)
+
+3.3 Local loopback address: 127.0.0.1
+
+
+3.4 Domain name: convenient to record ip address
+www.baidu.com www.atguigu.com www.bilibili.com
+www.jd.com www.mi.com www.vip.com
+
+
+4. Communication element 2: port number
+> Can uniquely identify a process (application) in a host
+> Different processes are assigned different port numbers
+> Range: 0~65535
+
+
+5. Use of InetAddress
+5.1 Function
+An instance of the InetAddress class represents a specific ip address.
+
+5.2 Instantiation method
+InetAddress getByName(String host): Get the instance of InetAddress corresponding to the specified ip
+InetAddress getLocalHost(): Get the instance of InetAddress corresponding to the local ip
+
+
+5.3 Common methods
+getHostName()
+getHostAddress()
+
+
+6. Communication Element 3: Communication Protocol
+6.1 Purpose of network communication protocol
+In order to achieve reliable and efficient data transmission.
+
+6.2 Network Reference Model
+OSI reference model: The network is divided into 7 layers, which is too idealized and has not been implemented.
+TCP/IP reference model: The network is divided into 4 layers: application layer, transport layer, network layer, physical + data link layer. de facto standard used.
