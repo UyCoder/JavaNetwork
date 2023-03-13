@@ -2,9 +2,9 @@
 
 ## 1. Overview of network programming
 
-Java is a language on the Internet. It provides support for network applications at the language level, and programmers can easily develop common network applications.
+Java is a language that can be used for developing network applications on the Internet. It provides support for network applications at the language level, and programmers can easily develop common network applications.
 
-The network class library provided by Java can realize painless network connection. The underlying details of networking are hidden in Java's native installation system and controlled by the JVM. And Java implements a cross-platform network library, `programmers are facing a unified network programming environment`.
+The network class library provided by Java can realize painless network connection. The underlying details of networking are hidden in Java's native installation system and controlled by the JVM. Java implements a cross-platform network library, and programmers are facing a unified network programming environment.
 
 ### 1.1 Software Architecture
 
