@@ -1,4 +1,4 @@
-# Java network programming
+# Java Network Programming
 
 ## 1. Overview of network programming
 
@@ -59,8 +59,10 @@ Both architectures have their own advantages, but no matter what kind of archite
 
 - `IPv6`: Due to the vigorous development of the Internet, the demand for IP addresses is increasing, but the network address resources are limited, making the allocation of IP more and more tense.
 
-  In order to expand the address space, it is planned to redefine the address space through IPv6, using 128-bit address length, a total of 16 bytes, written as 8 unsigned integers, each integer is represented by four hexadecimal digits, and colons are used between numbers (:)separate. For example: `ABCD:EF01:2345:6789:ABCD:EF01:2345:6789`, according to the conservative method to estimate the actual addresses that can be allocated by IPv6, more than 1,000 addresses can still be allocated per square meter of the entire earth, this solves the problem Solved the problem of insufficient network address resources. On June 6, 2012, the Internet Society held the World IPv6 Launch Day. On this day, the global IPv6 network was officially launched. Many well-known websites, such as Google, Facebook, and Yahoo, began to permanently support IPv6 access at 0:00 GMT (8:00 Beijing time) on the same day. In June 2018, the three major operators and Alibaba Cloud announced that they will provide IPv6 services in an all-round way, and plan to help China's Internet truly realize "IPv6 Only" by 2025.
-
+  IPv6 is a next-generation internet protocol that provides a larger address space than its predecessor, IPv4. With its 128-bit address length, IPv6 can support a virtually limitless number of unique IP addresses, which helps to solve the problem of address exhaustion that was becoming increasingly problematic with the continued growth of the internet.
+The format of an IPv6 address is represented by eight groups of four hexadecimal digits, separated by colons. Each group represents 16 bits, for a total of 128 bits. This allows for a total of 2^128, or approximately 3.4 × 10^38, unique addresses.
+The World IPv6 Launch Day, held on June 6, 2012, was a major milestone in the transition to IPv6. On this day, many major websites and internet service providers permanently enabled IPv6 connectivity, marking the start of a new era in internet addressing.
+As of 2023, IPv6 adoption continues to grow, with many major internet service providers and organizations offering full IPv6 support. While IPv4 remains in use, it is expected that IPv6 will eventually become the dominant protocol for internet communication, as it offers a much larger address space and improved security features.
   In the design process of IPv6, in addition to solving the problem of address shortage once and for all, other problems that cannot be solved in IPv4 are also considered, mainly including end-to-end IP connection, quality of service (QoS), security, multicast, mobile compatibility, plug and play, etc.
 
 **IP address classification method two:**
