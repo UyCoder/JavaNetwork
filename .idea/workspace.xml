@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9030342-eb22-4528-87b0-96f390af588a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ahmed/InetAddressTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ahmed/Main.java" afterDir="false" />
+    <list default="true" id="d9030342-eb22-4528-87b0-96f390af588a" name="Changes" comment="video 183">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ahmed/02-TCPδUDP.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ahmed/TCPTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ahmed/utils/MyMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,20 +43,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Javad/IdeaProjects/JavaNetwork/src/main/java/dev/ahmed",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Javad/IdeaProjects/JavaNetwork/src/main/java/dev/ahmed&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Javad\IdeaProjects\JavaNetwork\src\main\java\dev\ahmed" />
@@ -67,7 +65,7 @@
       <recent name="C:\Users\Javad\IdeaProjects\JavaNetwork\src\main\java\dev\ahmed" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MyMethods">
     <configuration name="InetAddressTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.ahmed.InetAddressTest" />
       <module name="JavaNetwork" />
@@ -81,8 +79,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.ahmed.utils.MyMethods" />
+      <module name="JavaNetwork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.ahmed.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyMethods" />
         <item itemvalue="Application.InetAddressTest" />
       </list>
     </recent_temporary>
@@ -98,11 +110,26 @@
       <workItem from="1677400382375" duration="2155000" />
       <workItem from="1677532493966" duration="628000" />
       <workItem from="1677683700517" duration="11000" />
-      <workItem from="1677871076208" duration="2227000" />
+      <workItem from="1677871076208" duration="2579000" />
+      <workItem from="1677914364718" duration="19000" />
+      <workItem from="1678013020940" duration="1093000" />
+      <workItem from="1679503282825" duration="1730000" />
     </task>
+    <task id="LOCAL-00001" summary="video 183">
+      <created>1677874199257</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677874199257</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="video 183" />
+    <option name="LAST_COMMIT_MESSAGE" value="video 183" />
   </component>
 </project>
