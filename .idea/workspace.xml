@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9030342-eb22-4528-87b0-96f390af588a" name="Changes" comment="video 183">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ahmed/02-TCPδUDP.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ahmed/TCPTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ahmed/utils/MyMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +79,7 @@
       <module name="JavaNetwork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.ahmed.utils.*" />
+          <option name="PATTERN" value="dev.ahmed.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,7 +108,7 @@
       <workItem from="1677871076208" duration="2579000" />
       <workItem from="1677914364718" duration="19000" />
       <workItem from="1678013020940" duration="1093000" />
-      <workItem from="1679503282825" duration="1730000" />
+      <workItem from="1679503282825" duration="2580000" />
     </task>
     <task id="LOCAL-00001" summary="video 183">
       <created>1677874199257</created>
@@ -122,11 +117,29 @@
       <option name="project" value="LOCAL" />
       <updated>1677874199257</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="video 183">
+      <created>1679505293303</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679505293303</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="video 183" />
