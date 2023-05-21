@@ -23,9 +23,9 @@ Both architectures have their own advantages, but no matter what kind of archite
 - **Purpose of network programming: **Exchange data and communicate with other computers directly or indirectly through network protocols.
 
 - **There are three main problems in network programming:**
-  - Question 1: How to accurately locate one or more hosts on the network
-  - Question 2: How to locate a specific application on the host
-  - Question 3: After finding the host, how to transmit data reliably and efficiently
+  -  Question 1: How to accurately locate one or more hosts on the network
+  -  Question 2: How to locate a specific application on the host
+  -  Question 3: After finding the host, how to transmit data reliably and efficiently
 
 ## 2. Network communication elements
 
